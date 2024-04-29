@@ -1,0 +1,194 @@
+body{
+	background-image: url("../imagenes/fondo.jpg");
+	color:#6E2C00;
+	font-family: "Tahoma", "Times New Roman";
+	font-size: 40px; 
+	
+	}
+p{
+	text-align:justifity;
+	font-size:20px;
+	}
+hr{
+	border:3px solid #9D662B;
+	border-radius: 5px;
+	width:80%;
+}
+/*aqui me quede*/
+
+table,tr,td{
+	border: 1px solid #784212;
+	border-spacing: 0px;
+	background-color: #FCF3CF;
+	text-align: center;
+	font-size: 20px;
+}
+ul{
+	list-style-type: circle;
+	list-style-position: inside;
+	
+}
+ol{
+	list-style-type:upper-alpha;
+	list-style-position: inside;
+}
+@font-face{
+	font-family:mifuente1;
+	src:url(../fonts/IMPRISHA..ttf);
+}
+@font-face{
+	font-family:mifuente;
+	src:url(../fonts/ELEPHNT..ttf);
+}
+.pie{
+	font-family:mifuente1;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+}
+/*clase para los encabezados del texto*/
+.encabezado{
+	font-family:mifuente1;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+}
+/*clase de imagenes de las marquesinas*/
+.img-marquee{
+	height:400px; 
+	width:600px;
+	border-radius: 10%
+}
+.img-control{
+	height:50px; 
+	width:50px;
+	border-radius: 10%
+}
+.img-producto{
+	height:200px; 
+	width:200px;
+}
+
+div#top{
+	font-family:mifuente;
+	padding:30px;
+	width:100%;
+	height:60px;
+	/*background-color: #D78D29;*/
+	/*background-image: linear-gradient(#F5A73D ,#A36510 );*/
+	background-image: radial-gradient(#F5A73D ,#A36510);
+	/*background-image: url("../imagenes/tacos fondo black.jpg");*/
+	/*background-image: url("../imagenes/logo.png");*/
+	/*background-repeat:no-repeat;*/
+}
+div#piediv{
+	padding:10px;
+	width:100%;
+	height:80px;
+	/*background-color: #D78D29;*/
+	/*background-image: linear-gradient(#F5A73D ,#A36510 );*/
+	background-image: radial-gradient(#F5A73D ,#A36510);
+	/*background-image: url("../imagenes/tacos fondo black.jpg");*/
+	/*background-image: url("../imagenes/logo.png");*/
+	/*background-repeat:no-repeat;*/
+}
+div#principal{
+	width:100%;
+	background-image: radial-gradient(#FD8804 ,#F8B05F );
+}
+.caja{
+	height:320px;
+	width:250px;
+	background:#FAD7A0;
+	border:1px solid #FAD7A0;
+	margin: 5px;
+	color: black;
+	text-align: center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow: 0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	font-family:mifuente1;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:#522C02 ;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size: 15px;
+	
+}
+.carrousel{
+	width:600px;
+	margin:auto;
+	/*hace que el padding y el borde pasem a formar parte
+	del calculo de la caja y no de la suma*/
+	box-sizing:border-box;
+}
+.contecarrousel{
+	width:100%;
+	height:400px;
+	/* hace que el navegador oculte todos los contenidos
+	que salen del div*/
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.itemcarrouselarrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows>i:hover{
+	cursor:pointer;
+}
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.contecarrouselcontroller>a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemcarrouselarrows>a>i{
+	color:white;
+}
+.caja-descripcion{
+	font-family:mifuente1;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:black;
+	width:30%;
+	background-color:#522C02;
+}
+
+
+
